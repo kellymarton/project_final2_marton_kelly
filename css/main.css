@@ -1,0 +1,70 @@
+@font-face {
+    font-family: titania;
+    src: url(css/fonts/titania.tff);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background-color: #0054a6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #0054a6;
+}
+
+h1 {
+    font-family: titania;
+    font-size: 75px;
+    color: #f9bd04;
+    -webkit-text-stroke: 1px #900227;
+    margin: 1px;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    margin: 1px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+main {
+    width: 100%;
+    box-sizing: inherit;
+    color: #f11c24;
+}
+
+p {
+    color: #ffffff;
+}
+
+#balboa,
+#awning,
+#boardwalk {
+    width: inherit;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1224px) {
+    #balboa,
+    #awning,
+    #boardwalk {
+        width: calc((100% / 3) - 5px);
+    }
+    article {
+        width: 60%;
+        text-align: center;
+    }
+}
